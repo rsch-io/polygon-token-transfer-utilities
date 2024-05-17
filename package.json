@@ -1,0 +1,18 @@
+{
+  "name": "Polygon-Token-Transfer-Utilities",
+  "version": "1.0.0",
+  "description": "This script is designed to transfer ERC-20 tokens from one Ethereum wallet to another on the Polygon network. It reads private keys from a specified JSON file and transfers tokens if the wallet balance is above a certain threshold.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "author": "Research. (rsch.io)",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^5.7.2",
+    "fs": "^0.0.1-security"
+  }
+}
